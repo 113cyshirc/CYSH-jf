@@ -1,0 +1,17 @@
+.lf-bold {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lf-regular {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lf-light {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
