@@ -77,10 +77,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link Preview -->
-    <meta name="description"
-        content="你是否對其他解題系統感到失望，那麼你來對地方了。嘉義高中資訊研究社最新的解題系統正是你想要的，還不快跟我們一起開心的解題！">
-    <meta name="keywords"
-        content="解題系統, zerojudge, zero judge, judge, code, code judge, zj, cyshj, cj, cysh, j, ">
+    <meta name="description" content="你是否對其他解題系統感到失望，那麼你來對地方了。嘉義高中資訊研究社最新的解題系統正是你想要的，還不快跟我們一起開心的解題！">
+    <meta name="keywords" content="解題系統, zerojudge, zero judge, judge, code, code judge, zj, cyshj, cj, cysh, j, ">
     <link rel="canonical" href="">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:src" content="">
@@ -89,8 +87,7 @@
     <meta property="og:site_name" content="CYSHJ-嘉義高中解題系統">
     <meta property="og:type" content="website">
     <meta property="og:title" content="CYSHJ-嘉義高中解題系統">
-    <meta property="og:description"
-        content="你是否對其他解題系統感到失望，那麼你來對地方了。嘉義高中資訊研究社最新的解題系統正是你想要的，還不快跟我們一起開心的解題！">
+    <meta property="og:description" content="你是否對其他解題系統感到失望，那麼你來對地方了。嘉義高中資訊研究社最新的解題系統正是你想要的，還不快跟我們一起開心的解題！">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
     <!-- Preview End -->
@@ -105,6 +102,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript">
     </script>
     <script src="https://kit.fontawesome.com/a80c5dc208.js" crossorigin="anonymous"></script>
+    <!-- local -->
+    <script src="animation.js"></script>
 </head>
 
 <body class="lf-regular">
@@ -115,9 +114,31 @@
             <div class="bar_c">解題動態</div>
             <div class="bar_c">比賽</div>
             <div class="bar_c">討論</div>
+            <div class="bar_c" id="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="bar_c no_hover"><input type="text" name="search_bar" id="search_bar"></div>
             <div class="bar_c right">個人資料</div>
         </div>
     </div>
 
     <p style="height: 60px;"></p>
+    <div class="container lf-bold">
+        <h1>CYSHJ-適合所有人的解題系統</h1>
+        <div class="row">
+            <div id="judgement">
+                <h2>評等解說</h2>
+                <div class="content">
+                    <p class="ac">AC: 通過。</p>
+                    <p class="na">NA: 不通過，有些測資不通過。</p>
+                    <p class="wa">WA: 不通過，全部不通過。</p>
+                    <p class="tle">TLE: 運行超時。</p>
+                    <p class="mle">MLE: 達到記憶體限制。</p>
+                    <p class="ole">OLE: 達到輸出限制。</p>
+                    <p class="re">RE: 執行錯誤。</p>
+                    <p class="rf">RF: 禁止的函數。</p>
+                    <p class="ce">CE: 編譯錯誤。</p>
+                    <p class="se">SE: 系統錯誤或未知錯誤。</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>

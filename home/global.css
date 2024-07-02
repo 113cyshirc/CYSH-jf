@@ -6,7 +6,7 @@ html,body {
 }
 
 .bar_background {
-    height: 85px;
+    height: 6em;
     width: 100%;
     background: linear-gradient(180deg, rgba(0,0,0,1) 70%, rgba(0,0,0,0.2) 100%);
     position: fixed;
@@ -16,14 +16,14 @@ html,body {
 .bar {
     display: flex;
     flex-direction: row;
-    height: 75px;
+    height: 5em;
     width: 100%;
     background-color: #61a7ee;
     position: fixed;
     top: 0px;
 }
 
-.bar_c {
+.bar_c { /* bar content */
     background-color: rgba(0,0,0,0);
     color: white;
     font-size: 20px;
@@ -32,10 +32,78 @@ html,body {
     cursor: default;
 }
 
-.bar_c:hover {
+.bar_c:hover:not(.no_hover) {
     background-color: rgba(0,0,0,0.3);
 }
 
 .right {
     margin-left: auto;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* 萬用 */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin-left: 5%;
+}
+
+/* 評等 */
+
+.ac {
+    color: green;
+}
+
+.na {
+    color: orange;
+}
+
+.wa {
+    color: red;
+}
+
+.tle {
+    color: darkgoldenrod;
+}
+
+.mle {
+    color: blueviolet;
+}
+
+.ole {
+    color: aqua;
+}
+
+.re {
+    color: darkgoldenrod;
+}
+
+.rf {
+    color: red;
+}
+
+.ce {
+    color: orange;
+}
+
+.se {
+    color: gray;
 }
